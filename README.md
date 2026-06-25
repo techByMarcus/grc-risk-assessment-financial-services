@@ -1,8 +1,8 @@
 # Pinnacle Lending Solutions — GRC Risk Assessment
 
-> A full information security GRC assessment for a regulated residential mortgage lender, grounded in 20+ years of hands-on financial services experience.
+> A full information security GRC assessment for a regulated residential mortgage lender, grounded in hands-on financial services experience.
 
-**Author:** Marcus Albright · GRC Risk Analyst
+**Author:** Marcus Albright
 **Completed:** June 2026
 
 **Frameworks:** NIST Cybersecurity Framework (CSF) 2.0 · ISO/IEC 27001:2022 · GLBA Safeguards Rule · CFPB
@@ -13,7 +13,7 @@
 
 This project is a full information security GRC assessment for **Pinnacle Lending Solutions**, a fictional residential mortgage lender. It was built to demonstrate applied GRC skills in a domain I know deeply — regulated financial services, mortgage lending, and consumer data protection.
 
-I spent 20+ years in regulated mortgage environments with direct exposure to GLBA, CFPB, RESPA, and TILA compliance requirements, audit-ready documentation, third-party vendor oversight, and protection of sensitive borrower PII. This project translates that operational experience into a structured GRC work product.
+I have worked in regulated mortgage environments with direct exposure to GLBA, CFPB, RESPA, and TILA compliance requirements, audit-ready documentation, third-party vendor oversight, and protection of sensitive borrower PII. This project translates that operational experience into a structured GRC work product.
 
 Everything in this project reflects real risks, real regulatory obligations, and real remediation approaches — grounded in the mortgage lending environment, not generic IT security templates.
 
@@ -93,7 +93,7 @@ Consumer data handling obligations mapped to risk register and gap analysis, ref
 
 ## About the Author
 
-I am transitioning into GRC and information security from a 20+ year career in regulated financial services — mortgage origination, branch management, client operations, and compliance. I bring direct experience with the regulatory frameworks (GLBA, CFPB, RESPA, TILA) and business processes (loan origination, vendor relationships, third-party data sharing) that GRC teams in financial services work to protect every day.
+I am transitioning into GRC and information security from a career in regulated financial services — mortgage origination, branch management, client operations, and compliance. I bring direct experience with the regulatory frameworks (GLBA, CFPB, RESPA, TILA) and business processes (loan origination, vendor relationships, third-party data sharing) that GRC teams in financial services work to protect every day.
 
 **Certifications:** EC-Council NDE · EC-Council EHE · LetsDefend SOC Analyst Path · LetsDefend MITRE ATT&CK · AWS Cloud Essentials · IBM Technical Support · CompTIA Security+ (in progress) · ISC2 CC (in progress)
 
