@@ -1,108 +1,34 @@
-# Pinnacle Lending Solutions — GRC Risk Assessment
+# Financial-Services Security Risk Assessment | GRC Case Study
 
-> A full information security GRC assessment for a regulated residential mortgage lender, grounded in hands-on financial services experience.
+**Fictional mortgage-lender scenario · Risk register · Control-gap assessment · Vendor review · Executive reporting**
 
-**Author:** Marcus Albright
-**Completed:** June 2026
+> **Five-second result:** I developed a structured **training GRC assessment** for fictional Pinnacle Lending Solutions, applying mortgage-domain knowledge to information-security risk prioritization. It is not an audit of a real lender.
 
-**Frameworks:** NIST Cybersecurity Framework (CSF) 2.0 · ISO/IEC 27001:2022 · GLBA Safeguards Rule · CFPB
+### Start with the actual deliverables
 
----
+| Artifact | What a recruiter can evaluate |
+|---|---|
+| **[Executive summary](Executive_Summary.pdf)** | Communication of findings and priorities to leadership |
+| **[Risk register](Pinnacle_Lending_Solutions_Risk_Register%20%281%29.xlsx)** | 15 example risks: likelihood, impact, mitigations, responsible owners |
+| **[Controls gap analysis](Controls_Gap_Analysis.docx)** | 20 control areas and a phased improvement plan |
+| **[GLBA safeguards checklist](GLBA_Safeguards_Compliance_Checklist.docx)** | Structured review of consumer-information safeguards |
+| **[Vendor risk template](Vendor_Risk_Assessment_Template.docx)** | Third-party questionnaire and approval framework |
+| **[Sample vendor assessment](Vendor_Assessment_Sample.docx)** | Example application of the template |
 
-## Project Overview
+## Assessment summary
 
-This project is a full information security GRC assessment for **Pinnacle Lending Solutions**, a fictional residential mortgage lender. It was built to demonstrate applied GRC skills in a domain I know deeply — regulated financial services, mortgage lending, and consumer data protection.
+**Scenario:** Mortgage organizations process sensitive borrower information across loan origination, CRM systems, title/appraisal partners, and other vendors. The hypothetical assessment focused on how to identify control weaknesses and prioritize action.
 
-I have worked in regulated mortgage environments with direct exposure to GLBA, CFPB, RESPA, and TILA compliance requirements, audit-ready documentation, third-party vendor oversight, and protection of sensitive borrower PII. This project translates that operational experience into a structured GRC work product.
+**Method:** Identify and score risks → map example safeguards to NIST CSF 2.0 and ISO 27001:2022 → describe gaps → assign remediation priorities → summarize for leadership.
 
-Everything in this project reflects real risks, real regulatory obligations, and real remediation approaches — grounded in the mortgage lending environment, not generic IT security templates.
+**Illustrative findings:** The exercise identified an example critical access-control risk alongside high-priority incident-response, vendor-management and business-continuity gaps. Scores and findings belong to the **fictional scenario**, not to a real audited organization.
 
----
+**Priorities proposed:** MFA, access reviews, written information-security planning, incident-response procedures, and vendor review.
 
-## What's Inside
+## Skills demonstrated
 
-| File | Description |
-| :--- | :--- |
-| **`Risk_Register.xlsx`** | 15 risks scored by likelihood × impact, mapped to NIST CSF and ISO 27001 controls. Includes existing controls, gaps, remediation, owner, and target dates. |
-| **`GLBA_Safeguards_Checklist.docx`** | Current-state compliance assessment against all FTC GLBA Safeguards Rule requirements. Identifies gaps and prioritizes remediation. |
-| **`Controls_Gap_Analysis.docx`** | 20 control areas assessed for current vs. target maturity (0–4 scale). Includes a 3-phase implementation roadmap. |
-| **`Vendor_Risk_Assessment_Template.docx`** | Third-party vendor security assessment form with scoring rubric and approval decision framework. |
-| **`Vendor_Assessment_Sample.docx`** | Completed sample vendor assessment for a fictional title company — demonstrates how the template is used in practice. |
-| **`Executive_Summary.pdf`** | One-page leadership summary of key findings, risk priorities, and recommendations. |
+Risk analysis and documentation; control mapping; vendor review; remediation prioritization; executive communication; practical knowledge of regulated mortgage workflows.
 
----
+**Accuracy and limitations:** This is a portfolio simulation, not independent regulatory or legal compliance certification. Control mapping and example recommendations require adaptation and validation for a real institution.
 
-## Why Mortgage Lending?
-
-Mortgage lenders are a high-value target for threat actors and a high-scrutiny environment for regulators — for good reason. Every loan file contains the most sensitive combination of PII imaginable: Social Security numbers, full financial histories, bank account details, employment records, and property information.
-
-The regulatory framework is layered and unforgiving:
-
-- **GLBA Safeguards Rule** — requires a written information security program, annual risk assessments, and vendor oversight.
-- **CFPB** — expects rigorous controls around consumer data handling and breach response.
-- **RESPA / TILA** — create audit-ready documentation obligations across the loan lifecycle.
-
-Most entry-level GRC candidates learn these frameworks from textbooks. I learned them from inside the regulated environment — originating loans, managing compliance, overseeing third-party relationships, and maintaining audit-ready files under examination pressure. This project applies that experience to a formal GRC assessment structure.
-
----
-
-## Frameworks Applied
-
-### NIST Cybersecurity Framework (CSF) 2.0
-
-Used as the primary organizing structure. Each risk in the register is mapped to a NIST CSF function (Govern, Identify, Protect, Detect, Respond, Recover) and specific category.
-
-### ISO/IEC 27001:2022
-
-Annex A controls mapped alongside NIST CSF for each risk — providing dual-framework coverage relevant to organizations pursuing ISO certification or working with internationally-focused partners.
-
-### GLBA Safeguards Rule (FTC, 2023 Update)
-
-All nine core elements of the Safeguards Rule are assessed in the compliance checklist — from the qualified individual requirement through incident response and vendor oversight obligations.
-
-### CFPB Consumer Data Standards
-
-Consumer data handling obligations mapped to risk register and gap analysis, reflecting direct regulatory exposure from residential mortgage origination.
-
----
-
-## Key Findings
-
-| Severity | Count | Highlights |
-| :--- | :--- | :--- |
-| **Critical** (Score 20/25) | 1 | Unauthorized PII access in LOS/CRM — no MFA, no documented access reviews. |
-| **High** | 8 | No written IR plan, no WISP, no formal vendor assessments, no offboarding SLA, ransomware/BCP exposure. |
-| **Medium** | 6 | SIEM gap, network segmentation, phishing training, password management. |
-
-**Top remediation priorities:** MFA enforcement · WISP documentation · IR plan · SIEM deployment · vendor risk program.
-
----
-
-## Skills Demonstrated
-
-- Risk identification, scoring, and prioritization (likelihood × impact)
-- NIST CSF and ISO 27001 control mapping
-- Regulatory compliance assessment (GLBA, CFPB)
-- Controls gap analysis and maturity modeling
-- Third-party / vendor risk management
-- Remediation roadmap development and phased implementation planning
-- Executive-level documentation and communication
-- Audit-ready record keeping and evidence collection
-
----
-
-## About the Author
-
-I am transitioning into GRC and information security from a career in regulated financial services — mortgage origination, branch management, client operations, and compliance. I bring direct experience with the regulatory frameworks (GLBA, CFPB, RESPA, TILA) and business processes (loan origination, vendor relationships, third-party data sharing) that GRC teams in financial services work to protect every day.
-
-**Certifications:** EC-Council NDE · EC-Council EHE · LetsDefend SOC Analyst Path · LetsDefend MITRE ATT&CK · AWS Cloud Essentials · IBM Technical Support · CompTIA Security+ (in progress) · ISC2 CC (in progress)
-
-**Training:** QuickStart Cybersecurity Bootcamp — University of Tennessee, Knoxville (May 2025)
-
-**Portfolio:** [techbymarcus.github.io/aboutMarcus](https://techbymarcus.github.io/aboutMarcus)
-
-**LinkedIn:** [linkedin.com/in/marcus-a-69ab2989](https://linkedin.com/in/marcus-a-69ab2989)
-
----
-
-> *This project uses a fictional company (Pinnacle Lending Solutions) to demonstrate applied GRC methodology. All risks, controls, and findings are realistic representations of information security challenges common to residential mortgage lending operations.*
+[Professional portfolio](https://techbymarcus.github.io/aboutMarcus/) · [Security tool](https://github.com/techByMarcus/security-audit-tool)
